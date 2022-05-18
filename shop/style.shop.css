@@ -1,0 +1,254 @@
+
+
+body {
+    background-image: url(../img/body.png);
+    width: 500px;
+    height: 300px;
+}
+.stal {
+    background-color: white;
+    position: absolute;
+    height: 70px;
+    width: 1800px;
+    right: 15px;
+    bottom: 936px;
+    border-color: black;
+    border: 5px;
+}
+.logo {
+    background-image: url(./img/logo.png);
+    position: relative;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    bottom: 90px;
+    left: 100px;
+}
+.logo__p {
+    color:black;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+    bottom: 80px;
+    left: 180px;
+    cursor: pointer;
+    transition: 1s;
+}
+.logo__p:hover {
+   color: rgb(175, 10, 10);
+}
+.nav__a1 {
+    color: black;
+    position: relative;
+    font-size: 25px;
+    padding: 30px;
+    left: 1000px;
+    bottom: 158px;
+    text-decoration: none;
+    border: 5px black;
+    transition: 1.25s;
+    cursor: pointer;
+}
+.nav__a2 {
+    color: black;
+    position: relative;
+    font-size: 25px;
+    padding: 30px;
+    left: 1000px;
+    bottom: 158px;
+    text-decoration: none;
+    transition: 1.25s;
+    cursor: pointer;
+}
+.nav__a3 {
+    color: black;
+    position: relative;
+    font-size: 25px;
+    padding: 30px;
+    left: 1358px;
+    bottom: 185px;
+    text-decoration: none;
+    transition: 1.25s;
+    cursor: pointer;
+}
+.nav__a1:hover {
+    color:greenyellow;
+}
+.nav__a2:hover {
+    color: rgb(56, 56, 250);
+}
+.nav__a3:hover {
+    color: orange;
+}
+
+.icon_a1 {
+    background-image: url(../icon/shield.png);
+    position: relative;
+    height: 40px;
+    width: 40px;
+    bottom: 1495px;
+    left: 1081px;
+}
+.icon_a2 {
+    background-image: url(../icon/mail.png);
+    position: relative;
+    height: 40px;
+    width: 40px;
+    bottom: 1535px;
+    left: 1482px;
+}
+.icon_a3 {
+    background-image: url(../icon/mail.png);
+    position: relative;
+    height: 50px;
+    width: 50px;
+    bottom: 1578px;
+    left: 1259px;
+}
+.left {
+    background-image: url(../icon/left.png);
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 70px;
+    bottom: 950px;
+    cursor: pointer;
+    
+}
+.buy {
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 790px;
+    width: 754px;
+    height: 444px;
+    box-shadow: 10px 10px  orange;
+
+}
+.forest {
+    color: black;
+    position: absolute;
+    font-weight: 400;
+    font-size: 32pt;
+    bottom: 420px;
+}
+.img_buy {
+    background-image: url(../img/forest.jpg);
+    position: absolute;
+    height: 270px;
+    width: 481px;
+    right: 800px;
+    bottom: 280px;
+}
+.buy_p {
+    color: black;
+    position: absolute;
+    font-size: 14pt;
+    top: 5px;
+    font-weight: 600;
+}
+.buy_p8 {
+    color: rgb(44, 44, 44);
+    position: absolute;
+    font-size: 13pt;  
+    bottom: 381px;  
+    left: 140px;
+    font-weight: 600;
+}
+.buy_p1 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-weight: 600; 
+    font-size: 14pt;
+    bottom: 339px;  
+    left: 1px;
+}
+.buy_p2 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-weight: 600; 
+    font-size: 14pt;
+    bottom: 304px;  
+    left: 1px;
+}
+.buy_p9 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-weight: 600; 
+    font-size: 13pt;
+    bottom: 334px;  
+    left: 10px;
+    top: 110px;
+    height: 200px;
+    width: 400px;
+}
+.buy_p5 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-weight: 600; 
+    font-size: 13pt;
+    bottom: 1334px;  
+    left: 1px;
+}
+.buy_p4 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-weight: 600; 
+    font-size: 13pt;
+    bottom: 1334px;  
+    left: 1px;
+}
+.buy_p7 {
+    color: rgb(44, 44, 44);
+    position: absolute;
+    font-weight: 600; 
+    font-size: 13pt;
+    bottom: 341px;  
+    left: 140px;
+}
+.buy_p3 {
+    color: rgb(0,0,0);
+    position: absolute;
+    font-weight: 700; 
+    font-size: 32pt;
+    font-family: monospace;
+    bottom: 322px;  
+    left: 520px;
+}
+.button_shop {
+    color: white;
+    background-color: red;
+    position: absolute;
+    font-size: 16pt;
+    height: 50px;
+    z-index: 0;
+    width: 190px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: 0.90s;
+    left: 500px;
+    top: 300px;
+}
+.button_shop:hover {
+    background-color: rgb(221, 0, 0);
+    box-shadow: 1px 1px red;
+    box-sizing:border-box;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

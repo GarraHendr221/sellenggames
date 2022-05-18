@@ -1,0 +1,13 @@
+body {
+    background: -webkit-linear-gradient(90deg, #5ee6f0,#9a3deb,#6912d5);
+    background: linear-gradient(90deg, #5ee6f0,#9a3deb,#6912d5);
+}
+.form {
+    position: absolute;
+    left: 600px;
+}
+.vk {
+    position: absolute;
+    bottom: 500px;
+    left: 1363px;
+}

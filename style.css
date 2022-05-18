@@ -1,0 +1,360 @@
+body {
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/1642694544_63-phonoteka-org-p-fon-dlya-saita-temnii-64.jpg);
+    width: 400px;
+}
+.stal {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    height: 70px;
+    width: 1860px;
+    right: 15px;
+    bottom: 12px;
+    border-color: black;
+    border: 5px;
+}
+.logo {
+    background-image: url(./img/logo.png);
+    position: relative;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    bottom: 90px;
+    left: 100px;
+}
+.logo__p {
+    color:black;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+    bottom:170px;
+    left: 180px;
+    cursor: pointer;
+    transition: 1s;
+}
+.logo__p:hover {
+   color: rgb(175, 10, 10);
+}
+.nav__a1 {
+    color: black;
+    position: relative;
+    font-size: 25px;
+    padding: 30px;
+    left: 1100px;
+    bottom: 233px;
+    text-decoration: none;
+    border: 5px black;
+    transition: 1.25s;
+    cursor: pointer;
+}
+.nav__a2 {
+    color: black;
+    position: relative;
+    font-size: 25px;
+    padding: 30px;
+    left: 1120px;
+    bottom: 233px;
+    text-decoration: none;
+    transition: 1.25s;
+    cursor: pointer;
+}
+.nav__a3 {
+    color: black;
+    position: relative;
+    font-size: 25px;
+    padding: 30px;
+    left: 1500px;
+    bottom: 260px;
+    text-decoration: none;
+    transition: 1.25s;
+    cursor: pointer;
+}
+.nav__a4 {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(345deg,#fc575e,#f7b42c);
+    position: absolute;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+    left: 525px;
+    bottom: 870px;
+    text-decoration: none;
+    transition: 0.80s;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+}
+.nav__a4:hover {
+    color: rgb(255, 255, 255);
+    background-position:linear-gradient(145,#fc575e,#f7b42c);
+    padding-left: 420px;
+    padding-right: 450px;
+    left: 500px;
+    box-shadow: 2px #fc575e;
+}
+.nav__a1:hover {
+    color:greenyellow;
+}
+.nav__a2:hover {
+    color: rgb(56, 56, 250);
+}
+.nav__a3:hover {
+    color: orange;
+}
+.shop {
+    background-color: rgb(236, 236, 236);
+    position: relative;
+    display: block;
+    left: 360px;
+    bottom: 150px;
+    height: 1200px;
+    width: 1200px;
+}
+.icon_a1 {
+    background-image: url(./icon/shield.png);
+    position: relative;
+    height: 40px;
+    width: 40px;
+    bottom: 1495px;
+    left: 1081px;
+}
+.icon_a2 {
+    background-image: url(./icon/mail.png);
+    position: relative;
+    height: 40px;
+    width: 40px;
+    bottom: 1535px;
+    left: 1482px;
+}
+.icon_a3 {
+    background-image: url(./icon/heart.png);
+    position: relative;
+    height: 50px;
+    width: 50px;
+    bottom: 1578px;
+    left: 1259px;
+}
+.forest {
+    background-color: white;
+    position: relative;
+    width: 350px;
+    height: 470px;
+    left: 400px;
+    bottom: 1350px;
+    border-radius: 6px;
+}
+.button_shop {
+    color: black;
+    font-weight: 700;
+    position: relative;
+    background-color: rgb(221, 221, 221);
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+    bottom: 1940px;
+    left:500px;
+    font-size: 700;
+    border: none;
+    transition: 0.80s;
+    cursor: pointer;
+}
+.button_shop:hover {
+    background-color: rgb(196, 196, 196);
+}
+.button_shop2 {
+    color: black;
+    font-weight: 700;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+    bottom: 1990px;
+    left:1000px;
+    font-size: 700;
+    border-color: white;
+    transition: 0.80s;
+    cursor: pointer;
+    border: none;
+}
+.button_shop2:hover {
+    background-color: rgb(196, 196, 196);
+}
+.img__forest {
+    background-image: url(./img/0.jpg);
+    position: relative;
+    height: 170px;
+    width: 350px;
+    border-radius: 6px;
+}
+.name_forest {
+    color: black;
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    left: 20px;
+    bottom: 180px;
+}
+.steam_forest {
+    color: gray;
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    left: 60px;
+    bottom: 33px;
+}
+.icon_steam {
+    background-image: url(./icon/84.png);
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 120px;
+    left: 20px;
+}
+
+.price {
+    color: black;
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    top: 170px;
+    left: 30px;
+
+}
+.a__forest {
+    color: black;
+    position: relative;
+    bottom: 1495px;
+    left: 560px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    background: linear-gradient(to right ,#ec9f05, #ff4e00);
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.90s;
+    animation: a3;
+}
+.a__forest:hover {
+    background-position: 166px;
+    box-shadow: 3px 3px orange;
+}
+.poppy {
+    background-color: white;
+    position: relative;
+    width: 350px;
+    height: 470px;
+    left: 800px;
+    bottom: 1943px;
+    border-radius: 6px;
+}
+.img__poppy {
+    background-image: url(./img/header.jpg);
+    height: 167px;
+    width: 350px;
+    border-radius:6px ;
+}
+.price_poppy {
+    color: black;
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    top: 204px;
+    left: 30px;
+}
+.name_poppy {
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    left: 20px;
+    bottom: 150px;
+}
+.steam_poppy {
+color: gray;
+position: relative;
+font-weight: 500;
+font-size: 20px;
+left: 70px;
+bottom: 2px;
+}
+.icon_steam2 {
+    background-image: url(./icon/84.png);
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 150px;
+    left: 20px;
+    top: 288px;
+}
+.a__poppy {
+    color: black;
+    position: relative;
+    bottom: 1988px;
+    left: 960px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    background: linear-gradient(to right ,#ec9f05, #ff4e00);
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.90s;
+    animation: a3;
+}
+.a__poppy:hover {
+    background-position: 166px;
+    box-shadow: 3px 3px orange;
+}
+.kassa {
+    position: absolute;
+}
+.create {
+    color: white;
+    background: -webkit-linear-gradient(90deg, #20a82f,#52cb54,#7aef78);
+    background: linear-gradient(90deg, #20a82f,#52cb54,#7aef78);
+    position: absolute;
+    font-size: 24pt;
+    font-family: arial;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 90px ;
+    text-decoration: none;
+    transform: rotate(-90deg);
+    bottom: 450px;
+    right: 1294px;
+   
+}
+.vk {
+    position: absolute;
+    bottom: 500px;
+    left: 1163px;
+}
+.create:hover {
+    padding-left: 100px;
+    padding-right: 100px;
+    animation: create 3s;
+    transition: 1s;
+}
+@keyframes create {
+    0% {
+      background-position: 0px;
+    }
+    50% {
+        background-position: 435px;
+    }
+    100% {
+        background-position: 0px;
+    }
+}
